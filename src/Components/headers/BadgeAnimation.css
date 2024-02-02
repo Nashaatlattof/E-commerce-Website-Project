@@ -1,0 +1,34 @@
+/* BadgeAnimation.css */
+@keyframes badgeAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.badge-transition-enter {
+  opacity: 0;
+}
+
+.badge-transition-enter-active {
+  opacity: 1;
+  animation: badgeAnimation 0.5s ease-in-out;
+}
+
+.badge-transition-exit {
+  opacity: 1;
+}
+
+.badge-transition-exit-active {
+  opacity: 0;
+}
+
+/* App.css أو اسم ملف CSS آخر */
+.badge-transition {
+  transform-origin: bottom;
+}
