@@ -1,6 +1,5 @@
-import { Box, Paper, Typography } from '@mui/material'
-import React from 'react'
-import FlashCard from './flashCard'
+import { Box, Typography } from '@mui/material'
+import FlashCard from './FlashCard.jsx'
 import { BoltOutlined } from '@mui/icons-material'
 import { pink } from "@mui/material/colors";
 const FlashDeals = () => {
