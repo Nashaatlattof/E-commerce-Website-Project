@@ -10,8 +10,8 @@ import './slider.css';
 import { useTheme } from '@emotion/react';
 
 const mySlider = [
-  { text: "MEN", link: "../../../public/images/banner-15.jpg" },
-  { text: "WOMEN", link: "../../../public/images/banner-25.jpg" },
+  { text: "MEN", link: "banner-15.jpg" },
+  { text: "WOMEN", link: "banner-25.jpg" },
 ];
 
 const Hero = () => {
@@ -115,7 +115,7 @@ const Hero = () => {
 
       <Box sx={{ display: { xs: "none", md: "block" }, minWidth: "26.2%" }}>
         <Box sx={{ position: "relative" }}>
-          <img width={"100%"} src="../../../public/images/banner-16.jpg" alt="" />
+          <img width={"100%"} src="banner-16.jpg" alt="" />
           <Stack
             sx={{
               position: "absolute",
@@ -161,7 +161,7 @@ const Hero = () => {
           </Stack>
         </Box>
         <Box sx={{ position: "relative" }}>
-          <img width={"100%"} src="../../../public/images/banner-17.jpg" alt="" />
+          <img width={"100%"} src="banner-17.jpg" alt="" />
           <Stack
             sx={{
               position: "absolute",
